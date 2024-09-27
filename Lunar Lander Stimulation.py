@@ -50,8 +50,7 @@ utils.display_table(current_state, action, next_state, reward, done)
 # Replace the `current_state` with the state after the action is taken
 current_state = next_state
 
-# UNQ_C1
-# GRADED CELL
+
 
 # Create the Q-Network
 q_network = Sequential([
